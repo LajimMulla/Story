@@ -14,6 +14,6 @@ int main() {
     charSingle = getchar();
     printf("The entered string is :");
     putchar(charSingle);
-
+    print("HELLO")
     return 0;
 }
