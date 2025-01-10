@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main() {
+    int number;
+    char charSingle;
+    char string[100];
+
+    printf("Ente a  number");
+    scanf("%d", &number);
+    printf("The enterd number is : %d", number);
+
+    printf("Enter a single character :");
+    charSingle = getchar();
+    printf("The entered string is :");
+    putchar(charSingle);
+
+    return 0;
+}
